@@ -1,0 +1,130 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family:" ../fonts/roboto/";
+}
+#header-nav {
+    padding: 1.5em 15em;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main-page {
+    padding: 1em 15em 2em;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#info-page {
+    padding: 1em 15em;
+    display: flex;
+    justify-content: space-between;
+}
+#quote-page {
+    padding: 5em 22em;
+    background-color: #dedce0;
+    justify-content: center;
+    align-items: center;
+}
+#signup-page {
+    background-color: #3882F6;
+    margin: 4em 15em;
+    display: flex;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+footer {
+    padding: 1em 15em;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* For the inner contents */
+.nav-links, .nav-logo{
+    display: flex;
+}
+.nav-links a{
+    margin: 0vw 1.5vw;
+}
+#main-page h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+#main-page p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+#main-page img {
+    height: 20vw;
+}
+#main-page button {
+    margin: 0.5em 0em 0em 0em;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+    padding: 7px 30px;
+    font-size: large;
+    font-weight: bold;
+}
+.text-button {
+    padding-right: 5em;
+}
+#info-page div {
+    padding: 4em 2em 4em;
+}
+#info-page h1 {
+    position: absolute;
+    /* padding: 0em 0em 10em; */
+}
+#info-page img {
+    padding: 2em 0em 0em;
+    width: 12vw;
+}
+#quote-page h1 {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937
+}
+#quote-page h2 {
+    text-align: right;
+}
+#signup-page .signup-button {
+    display: flex;
+}
+#signup-page .words {
+    margin-right: 14em;
+}
+#signup-page h2 {
+    margin-bottom: 0;
+    margin-top: 2em;
+}
+#signup-page p {
+    margin-top: 0;
+    margin-bottom: 3em;
+}
+#signup-page button {
+    background-color: #3882F6;
+    color: white;
+    border-width: 3px;
+    text-decoration: none;
+    padding: 7px 30px;
+    font-size: large;
+    font-weight: bold;
+    border-color: white;
+    border-style: solid;
+    border-radius: 12px;
+}
